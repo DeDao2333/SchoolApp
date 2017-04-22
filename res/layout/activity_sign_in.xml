@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.java.api25.MyObject.FragmentContent.SignInActivity">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/text_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:hint="Name"/>
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/text_passWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"/>
+
+</LinearLayout>
